@@ -1,0 +1,12 @@
+<h3>Course description</h3>
+<p>{{details.course.description}}</p>
+<h3>Timeslot</h3>
+<h3>Location</h3>
+<p>{{details.course.location}}</p>
+
+<h3>Reviews</h3>
+{{ details.course.rating }}
+<div ng-repeat="commentItem in details.comments">
+  <h2>{{ commentItem.content }}</h2>
+
+</div>
