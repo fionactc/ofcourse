@@ -4,9 +4,11 @@ import { Meteor } from 'meteor/meteor';
 
 import { name as Socially } from '../imports/ui/components/socially/socially';
 
+import { name as Ofcourse } from '../imports/ui/components/ofcourse/ofcourse';
+
 function onReady() {
   angular.bootstrap(document, [
-    Socially
+    Ofcourse
   ], {
     strictDi: true
   });
